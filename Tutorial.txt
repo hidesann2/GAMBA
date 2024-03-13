@@ -1,0 +1,8 @@
+git init // Khởi tạo git 
+git add . // add tất cả file (.)
+    hoặc git add (Tên file.đuôi) // add file chỉ định
+git commit -am "random messages" // commit add files
+git push "origin"  "Muốn push lên branch nào" // Nếu chưa tạo branch nào thì ghi master
+git checkout -b "Tên branch muốn tạo" // Tạo branch mới
+git checkout "Tên branch" // Chuyển tới branch chỉ định
+git status // Check tình trạng branch, đang ở branch nào
